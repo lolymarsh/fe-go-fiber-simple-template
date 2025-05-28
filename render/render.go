@@ -1,6 +1,6 @@
 package render
 
-import "csdoc_fe/config"
+import "loly-eiei/config"
 
 type Render struct {
 	conf *config.Config

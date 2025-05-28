@@ -1,7 +1,7 @@
 package route
 
 import (
-	"csdoc_fe/render"
+	"loly-eiei/render"
 
 	"github.com/gofiber/fiber/v2"
 )

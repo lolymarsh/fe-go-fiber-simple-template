@@ -1,4 +1,4 @@
-module csdoc_fe
+module loly-eiei
 
 go 1.24.2
 

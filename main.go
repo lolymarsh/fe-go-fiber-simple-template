@@ -1,9 +1,9 @@
 package main
 
 import (
-	"csdoc_fe/config"
-	"csdoc_fe/render"
-	"csdoc_fe/route"
+	"loly-eiei/config"
+	"loly-eiei/render"
+	"loly-eiei/route"
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/html/v2"

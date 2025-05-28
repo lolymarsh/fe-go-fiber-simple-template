@@ -1,6 +1,7 @@
 {{ define "HomePage" }}
     <h1>Welcome to Home Page</h1>
     <p>This is the home page content.</p>
+    <script src="/static/js/HomePage.js?v={{ .FileVersion }}"></script>
 {{ end }}
 
 {{ template "layouts/main" . }}

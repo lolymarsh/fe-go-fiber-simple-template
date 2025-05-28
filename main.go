@@ -24,6 +24,8 @@ func main() {
 		Views: engine,
 	})
 
+	app.Static("/static", "./static")
+
 	// Initialize render and routes
 	render := render.NewRender(conf)
 	route.SetUpRoute(app, render)
